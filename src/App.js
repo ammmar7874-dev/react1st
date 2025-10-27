@@ -1,12 +1,20 @@
 import "./App.css";
-import Button from "./Button";
+import Header from "./Header/Header.jsx";
+import Body from "./body/Body.jsx";
+import Footer from "./Footer/Footer.jsx";
+import About from "./body/About/About.jsx";
+import Contact from "./body/Contact/Contact.jsx";
+import Home from "./body/Home/Home.jsx";
+
 function App() {
   return (
     <>
-      <h1>heading 1</h1>
-      <h2>heading 2</h2>
-      <p>paragraph</p>
-      <Button />
+      <Home />
+      <About />
+      <Contact />
+      <Header />
+      <Body />
+      <Footer />
     </>
   );
 }
