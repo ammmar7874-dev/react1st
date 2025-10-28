@@ -1,4 +1,5 @@
 import Student from "../Student";
+import Product from "./Home/Products/Product";
 
 const Body = () => {
   let num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -7,6 +8,7 @@ const Body = () => {
   return (
     <>
       <div className="body">
+        <Product />
         <Student />
         {num.map((item, index) => (
           <p key={index}>{item}</p>
